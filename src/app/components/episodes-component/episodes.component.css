@@ -1,0 +1,36 @@
+
+.tableRow:hover
+{
+  background-color: rgb(108, 123, 200,0.2) !important;
+}
+
+h4 {
+  position: sticky;
+  top: 5%;
+  padding: 1.5rem;
+  
+}
+
+.header-row {
+  position: sticky;
+  top: 0%;
+  background-color: aliceblue;
+  width: 100%;
+}
+
+#dt-eps {
+overflow-y: scroll;
+  align-items: center;
+}
+
+.title-container {
+
+  width: 100%;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  overflow-y: scroll;
+}

@@ -1,0 +1,26 @@
+
+<table id="dt-eps" class="table table-striped table-bordered table-sm " cellspacing="5" width="100%">
+    <tr class="header-row text-center"><th> Title</th><th>Released</th><th>Episode</th><th>imdbRating</th></tr>
+    <tbody>
+        <tr *ngFor="let episode of episodes" class="text-center tableRow">
+            <td>{{episode[0]}}</td>
+            <td>{{episode[1]}}</td>
+            <td>{{episode[2]}}</td>
+            <td>{{episode[3]}}</td>
+        </tr>
+    </tbody>
+</table>
+<!--
+<kendo-grid [data]="gridItems | async" [pageSize]="pageSize" [skip]="skip" [pageable]="true"
+  (pageChange)="pageChange($event)" [sortable]="true" [sort]="sortDescriptor" (sortChange)="handleSortChange($event)"
+  [height]="400">
+  <kendo-grid-column field="Title" title="Title">
+  </kendo-grid-column>
+  <kendo-grid-column field="Released" title="Released">
+  </kendo-grid-column>
+  <kendo-grid-column field="Episode" title="Episode">
+  </kendo-grid-column>
+  <kendo-grid-column field="imdbRating" title="imdbRating">
+  </kendo-grid-column>
+</kendo-grid>
+-->

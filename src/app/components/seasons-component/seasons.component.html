@@ -1,0 +1,8 @@
+<div class="series_container">
+<h4>Season</h4>
+<select (change)="selectOption($event)" [(ngModel)]="selectedseason">
+<option disabled selected="selected">select a series</option>
+<option *ngFor="let s of seasons_numbers">{{s}}</option>
+</select>
+</div>
+<app-episodes *ngIf="show_table"></app-episodes>

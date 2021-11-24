@@ -1,0 +1,19 @@
+<div class="series_container">
+<h4>Series</h4>
+  <select (change)="selectOption($event)" [(ngModel)]="selectedseries">
+    <option value="" disabled selected="selected">select a series</option>
+    <option value="Sherlock">Sherlock</option>
+    <option value="Game Of Thrones">Game Of Thrones</option>
+    <option value="The Sopranos">The Sopranos</option>
+    <option value="The Office">The Office</option>
+    <option value="Black Mirror">Black Mirror</option>
+  </select>
+  
+  
+  
+  
+</div>
+<div class="se_container" *ngIf="seasons != '0'">
+ 
+<app-seasons ></app-seasons>
+</div>
